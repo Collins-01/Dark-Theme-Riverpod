@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+// final appThemeStateNotifier =
+//     ChangeNotifierProvider((ref) => AppThemeNotifier());
+
 class AppThemeNotifier extends ChangeNotifier {
   AppThemeNotifier() {
     getCache();
